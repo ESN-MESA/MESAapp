@@ -80,7 +80,7 @@ To fetch data you need to have the **server** running on localhost as well.
 The server requires a running instance of Postgres. You can use docker to run it:
 
 ```bash
-docker run --name tumi-postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+docker run --name tumi-postgres -e POSTGRES_PASSWORD=postgres -p 5433:5432 -d postgres
 ```
 
 To intialize or reset the database run the following commands:

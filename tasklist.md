@@ -1,5 +1,5 @@
 # Vital (Minimum)
-- [ ] Vollständiger Build
+- [x] Vollständiger Build
 - [ ] Stabiles Postgres Deployment (Mirror/Snapshots)
 - [ ] Server Deployment (LRZ)
 ## Secondary (Recommended for Demo)

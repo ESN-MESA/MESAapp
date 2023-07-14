@@ -1,4 +1,4 @@
-# Event journey in the TUMi app
+# Event journey in the MESA app
 
 From template to cost calculation
 
@@ -16,7 +16,7 @@ Most events are not entirely new, so the app helps out with providing a rich lib
 
 ## Step 2: Event details
 
-After we selected our template we can add a new event based on the template. This requires some additional information about the event. Once all information is provided, the event can be created. After creation, all aspects of the event can be edited to make it ready for publication.
+After we selected our template we can add a new event based on the template. This requires some additional information about the event. Once all information is provided, the event can be created. After creation, all aspects of the event can be edited to make it ready for publication. (Paid events currently not planned for release version)
 | ![tumi esn world_events (11)](https://user-images.githubusercontent.com/3612748/173583077-519820fd-b3d5-4138-a6c6-3e527e116183.png) | ![tumi esn world_events (5)](https://user-images.githubusercontent.com/3612748/173583133-5b137b11-e62a-4c96-90c3-65bcfc798f72.png) |
 |--|--|
 | Adding additional info | Editing the event |

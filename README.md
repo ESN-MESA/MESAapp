@@ -16,6 +16,7 @@ This repository follows the [conventional commits](https://conventionalcommits.o
 messages according to the guidelines.
 -->
 ## Compose setup (Production)
+Docker is needed to run the project. Get it [here](https://docs.docker.com/get-docker/).
 Using [Docker Compose](https://docs.docker.com/compose/) has worked well so far, because it takes care of dependencies and linking the Database.
 Recommended to use Docker Desktop to run it locally.
 ### Clone the project

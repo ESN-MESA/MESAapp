@@ -38,7 +38,7 @@ async function runSeed() {
 
   const tumiTenant = await prisma.tenant.create({
     data: {
-      name: 'ESN TUMi e.V.',
+      name: 'ESN MESA e.V.',
       shortName: 'tumi',
       stripeReducedTaxRate: 'txr_1LdGYR4EBOHRwndEsyXR0QD6',
       stripeConnectAccountId: 'acct_10469P4EBOHRwndE',
@@ -47,9 +47,9 @@ async function runSeed() {
 
   const tumiOrganizer = await prisma.eventOrganizer.create({
     data: {
-      name: 'ESN TUMi e.V.',
+      name: 'ESN MESA e.V.',
       tenant: { connect: { id: tumiTenant.id } },
-      text: 'This event is organized by the student association ESN TUMi München e.V.',
+      text: 'This event is organized by the student association ESN MESA e.V.',
     },
   });
 
@@ -74,7 +74,7 @@ async function runSeed() {
       firstName: users.adminUser.firstName,
       lastName: users.adminUser.lastName,
       picture: faker.internet.avatar(),
-      university: 'tum',
+      university: 'lmu',
       enrolmentStatus: 'LOCAL',
       birthdate: faker.date.birthdate(),
     },
@@ -129,7 +129,7 @@ async function runSeed() {
       firstName: users.memberUser.firstName,
       lastName: users.memberUser.lastName,
       picture: faker.internet.avatar(),
-      university: 'tum',
+      university: 'lmu',
       enrolmentStatus: 'LOCAL',
       birthdate: faker.date.birthdate(),
     },
@@ -157,7 +157,7 @@ async function runSeed() {
       firstName: users.regularUser.firstName,
       lastName: users.regularUser.lastName,
       picture: faker.internet.avatar(),
-      university: 'tum',
+      university: 'lmu',
       enrolmentStatus: 'EXCHANGE',
       birthdate: faker.date.birthdate(),
     },
@@ -183,7 +183,7 @@ async function runSeed() {
       firstName: users.regularUser2.firstName,
       lastName: users.regularUser2.lastName,
       picture: faker.internet.avatar(),
-      university: 'tum',
+      university: 'lmu',
       enrolmentStatus: 'EXCHANGE',
       birthdate: faker.date.birthdate(),
     },

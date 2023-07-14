@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          default: '#4f46e5',
+          default: '#7ebc46',
           on: '#ffffff',
           container: '#f3f4f6',
           onContainer: '#111827',

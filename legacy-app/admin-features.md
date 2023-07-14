@@ -1,4 +1,4 @@
-# Administration features of the TUMi app
+# Administration features of the MESA app
 
 Beyond just the event registration and management the app offers a lot of features to admins.
 | ![image](https://user-images.githubusercontent.com/3612748/173588300-eff1f7ee-63ff-484c-bed8-797add7d5848.png) |

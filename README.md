@@ -16,6 +16,7 @@ This repository follows the [conventional commits](https://conventionalcommits.o
 messages according to the guidelines.
 -->
 ## Compose setup (Production)
+Docker is needed to run the project. Get it [here](https://docs.docker.com/get-docker/).
 Using [Docker Compose](https://docs.docker.com/compose/) has worked well so far, because it takes care of dependencies and linking the Database.
 Recommended to use Docker Desktop to run it locally.
 ### Clone the project
@@ -80,7 +81,7 @@ To fetch data you need to have the **server** running on localhost as well.
 The server requires a running instance of Postgres. You can use docker to run it:
 
 ```bash
-docker run --name tumi-postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+docker run --name tumi-postgres -e POSTGRES_PASSWORD=postgres -p 5433:5432 -d postgres
 ```
 
 To intialize or reset the database run the following commands:

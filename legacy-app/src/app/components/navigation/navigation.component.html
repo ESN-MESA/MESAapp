@@ -1,5 +1,5 @@
 <div
-  class="sidenav fixed bottom-0 z-50 flex h-16 w-full flex-row bg-indigo-600 text-white sm:top-0 sm:h-full sm:w-[6rem] sm:flex-col"
+  class="sidenav fixed bottom-0 z-50 flex h-16 w-full flex-row bg-green-600 text-white sm:top-0 sm:h-full sm:w-[6rem] sm:flex-col"
   data-testid="navigation"
   (click)="preventProp($event)"
 >
@@ -7,7 +7,7 @@
     <a
       *ngIf="tenant?.settings?.brandIconUrl as brandIconUrl; else defaultLogo"
       matRipple
-      class="mb-4 hidden h-[64px] min-h-[64px] w-full items-center bg-indigo-700 sm:flex"
+      class="mb-4 hidden h-[64px] min-h-[64px] w-full items-center bg-green-700 sm:flex"
       routerLink="/events"
     >
       <img class="p-4" [src]="brandIconUrl" alt="ESN Star" />
@@ -15,7 +15,7 @@
     <ng-template #defaultLogo>
       <a
         matRipple
-        class="mb-4 hidden h-[64px] min-h-[64px] w-full items-center bg-indigo-700 sm:flex"
+        class="mb-4 hidden h-[64px] min-h-[64px] w-full items-center bg-green-700 sm:flex"
         routerLink="/events"
       >
         <img class="p-9" src="/assets/logos/star-white.svg" alt="ESN Star" />

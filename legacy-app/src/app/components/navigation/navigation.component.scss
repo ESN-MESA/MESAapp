@@ -12,9 +12,12 @@
     display: none;
   }
 }
-
+.text-custom-color
+{
+  color: #0B132B;
+}
 .nav-item {
-  @apply flex-col items-center w-0 flex-1 sm:flex-initial sm:w-full h-full sm:h-auto sm:rounded-xl sm:py-2 justify-center text-indigo-200;
+  @apply flex-col items-center w-0 flex-1 sm:flex-initial sm:w-full h-full sm:h-auto sm:rounded-xl sm:py-2 justify-center text-custom-color;
 
   mat-icon {
     padding: 4px 11px;
@@ -41,7 +44,7 @@
 
   &.active {
     mat-icon{
-      @apply bg-indigo-800 text-white;
+      @apply bg-green-500 text-white;
     }
   }
 }

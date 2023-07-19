@@ -238,15 +238,15 @@ async function runSeed() {
       tenant: { connect: { id: tumiTenant.id } },
     },
   });
-
-  const paidTemplate = await prisma.eventTemplate.create({
-    data: {
-      ...templates.paidTemplate,
-      duration: 60,
-      finances: {},
-      tenant: { connect: { id: tumiTenant.id } },
-    },
-  });
+  // not seeding paid template for now
+  // const paidTemplate = await prisma.eventTemplate.create({
+  //   data: {
+  //     ...templates.paidTemplate,
+  //     duration: 60,
+  //     finances: {},
+  //     tenant: { connect: { id: tumiTenant.id } },
+  //   },
+  // });
 
   await prisma.eventTemplate.create({
     data: {
@@ -310,65 +310,65 @@ async function runSeed() {
       participantSignup: [MembershipStatus.NONE, MembershipStatus.FULL],
     },
   });
-
-  const paidStartDate = faker.date.soon(10);
-  const paidStartDate2 = faker.date.soon(10);
-  const paidEvent = await prisma.tumiEvent.create({
-    data: {
-      ...events.paidEvent,
-      organizer: { connect: { id: tumiOrganizer.id } },
-      eventTemplate: { connect: { id: paidTemplate.id } },
-      start: paidStartDate,
-      end: faker.date.soon(1, paidStartDate.toString()),
-      createdBy: { connect: { id: adminUser.id } },
-      registrationMode: RegistrationMode.STRIPE,
-      publicationState: PublicationState.PUBLIC,
-      participantSignup: [
-        MembershipStatus.NONE,
-        MembershipStatus.FULL,
-        MembershipStatus.TRIAL,
-      ],
-      participantLimit: 10,
-      prices: {
-        options: [
-          {
-            amount: '7.5',
-            defaultPrice: true,
-            esnCardRequired: false,
-            allowedStatusList: ['NONE', 'TRIAL', 'FULL', 'SPONSOR', 'ALUMNI'],
-          },
-        ],
-      },
-    },
-  });
-  const paidEvent2 = await prisma.tumiEvent.create({
-    data: {
-      ...events.paidEvent2,
-      organizer: { connect: { id: tumiOrganizer.id } },
-      eventTemplate: { connect: { id: paidTemplate.id } },
-      start: paidStartDate2,
-      end: faker.date.soon(1, paidStartDate2.toString()),
-      createdBy: { connect: { id: adminUser.id } },
-      registrationMode: RegistrationMode.STRIPE,
-      publicationState: PublicationState.PUBLIC,
-      participantSignup: [
-        MembershipStatus.NONE,
-        MembershipStatus.FULL,
-        MembershipStatus.TRIAL,
-      ],
-      participantLimit: 10,
-      prices: {
-        options: [
-          {
-            amount: '7.5',
-            defaultPrice: true,
-            esnCardRequired: false,
-            allowedStatusList: ['NONE', 'TRIAL', 'FULL', 'SPONSOR', 'ALUMNI'],
-          },
-        ],
-      },
-    },
-  });
+// Not seeding paid event for now
+//   const paidStartDate = faker.date.soon(10);
+//   const paidStartDate2 = faker.date.soon(10);
+//   const paidEvent = await prisma.tumiEvent.create({
+//     data: {
+//       ...events.paidEvent,
+//       organizer: { connect: { id: tumiOrganizer.id } },
+//       eventTemplate: { connect: { id: paidTemplate.id } },
+//       start: paidStartDate,
+//       end: faker.date.soon(1, paidStartDate.toString()),
+//       createdBy: { connect: { id: adminUser.id } },
+//       registrationMode: RegistrationMode.STRIPE,
+//       publicationState: PublicationState.PUBLIC,
+//       participantSignup: [
+//         MembershipStatus.NONE,
+//         MembershipStatus.FULL,
+//         MembershipStatus.TRIAL,
+//       ],
+//       participantLimit: 10,
+//       prices: {
+//         options: [
+//           {
+//             amount: '7.5',
+//             defaultPrice: true,
+//             esnCardRequired: false,
+//             allowedStatusList: ['NONE', 'TRIAL', 'FULL', 'SPONSOR', 'ALUMNI'],
+//           },
+//         ],
+//       },
+//     },
+//   });
+//   const paidEvent2 = await prisma.tumiEvent.create({
+//     data: {
+//       ...events.paidEvent2,
+//       organizer: { connect: { id: tumiOrganizer.id } },
+//       eventTemplate: { connect: { id: paidTemplate.id } },
+//       start: paidStartDate2,
+//       end: faker.date.soon(1, paidStartDate2.toString()),
+//       createdBy: { connect: { id: adminUser.id } },
+//       registrationMode: RegistrationMode.STRIPE,
+//       publicationState: PublicationState.PUBLIC,
+//       participantSignup: [
+//         MembershipStatus.NONE,
+//         MembershipStatus.FULL,
+//         MembershipStatus.TRIAL,
+//       ],
+//       participantLimit: 10,
+//       prices: {
+//         options: [
+//           {
+//             amount: '7.5',
+//             defaultPrice: true,
+//             esnCardRequired: false,
+//             allowedStatusList: ['NONE', 'TRIAL', 'FULL', 'SPONSOR', 'ALUMNI'],
+//           },
+//         ],
+//       },
+//     },
+//   });
 }
 
 runSeed().then(() => {

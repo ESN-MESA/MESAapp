@@ -2041,7 +2041,7 @@ export const GetCurrentUserDocument = gql`
   })
   export class GetCurrentUserGQL extends Apollo.Query<GetCurrentUserQuery, GetCurrentUserQueryVariables> {
     override document = GetCurrentUserDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2060,7 +2060,7 @@ export const GetCurrentUserInfoDocument = gql`
   })
   export class GetCurrentUserInfoGQL extends Apollo.Query<GetCurrentUserInfoQuery, GetCurrentUserInfoQueryVariables> {
     override document = GetCurrentUserInfoDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2097,7 +2097,7 @@ export const GetTenantInfoDocument = gql`
   })
   export class GetTenantInfoGQL extends Apollo.Query<GetTenantInfoQuery, GetTenantInfoQueryVariables> {
     override document = GetTenantInfoDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2116,7 +2116,7 @@ export const CreateEventTemplateDocument = gql`
   })
   export class CreateEventTemplateGQL extends Apollo.Mutation<CreateEventTemplateMutation, CreateEventTemplateMutationVariables> {
     override document = CreateEventTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2134,7 +2134,7 @@ export const CreateEventFromTemplateDocument = gql`
   })
   export class CreateEventFromTemplateGQL extends Apollo.Mutation<CreateEventFromTemplateMutation, CreateEventFromTemplateMutationVariables> {
     override document = CreateEventFromTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2157,7 +2157,7 @@ export const UpdateTemplateLocationDocument = gql`
   })
   export class UpdateTemplateLocationGQL extends Apollo.Mutation<UpdateTemplateLocationMutation, UpdateTemplateLocationMutationVariables> {
     override document = UpdateTemplateLocationDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2179,7 +2179,7 @@ export const UpdateEventTemplateCategoryAssignmentDocument = gql`
   })
   export class UpdateEventTemplateCategoryAssignmentGQL extends Apollo.Mutation<UpdateEventTemplateCategoryAssignmentMutation, UpdateEventTemplateCategoryAssignmentMutationVariables> {
     override document = UpdateEventTemplateCategoryAssignmentDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2209,7 +2209,7 @@ export const UpdateEventTemplateDocument = gql`
   })
   export class UpdateEventTemplateGQL extends Apollo.Mutation<UpdateEventTemplateMutation, UpdateEventTemplateMutationVariables> {
     override document = UpdateEventTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2227,7 +2227,7 @@ export const DeleteEventTemplateDocument = gql`
   })
   export class DeleteEventTemplateGQL extends Apollo.Mutation<DeleteEventTemplateMutation, DeleteEventTemplateMutationVariables> {
     override document = DeleteEventTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2245,7 +2245,7 @@ export const DeleteTemplateDocument = gql`
   })
   export class DeleteTemplateGQL extends Apollo.Mutation<DeleteTemplateMutation, DeleteTemplateMutationVariables> {
     override document = DeleteTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2265,7 +2265,7 @@ export const GetEventTemplatesDocument = gql`
   })
   export class GetEventTemplatesGQL extends Apollo.Query<GetEventTemplatesQuery, GetEventTemplatesQueryVariables> {
     override document = GetEventTemplatesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2295,7 +2295,7 @@ export const GetTemplateCategoriesWithTemplatesDocument = gql`
   })
   export class GetTemplateCategoriesWithTemplatesGQL extends Apollo.Query<GetTemplateCategoriesWithTemplatesQuery, GetTemplateCategoriesWithTemplatesQueryVariables> {
     override document = GetTemplateCategoriesWithTemplatesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2315,7 +2315,7 @@ export const GetEventTemplateCategoriesDocument = gql`
   })
   export class GetEventTemplateCategoriesGQL extends Apollo.Query<GetEventTemplateCategoriesQuery, GetEventTemplateCategoriesQueryVariables> {
     override document = GetEventTemplateCategoriesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2337,7 +2337,7 @@ export const GetLonelyEventTemplatesDocument = gql`
   })
   export class GetLonelyEventTemplatesGQL extends Apollo.Query<GetLonelyEventTemplatesQuery, GetLonelyEventTemplatesQueryVariables> {
     override document = GetLonelyEventTemplatesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2417,7 +2417,7 @@ export const GetEventTemplateDocument = gql`
   })
   export class GetEventTemplateGQL extends Apollo.Query<GetEventTemplateQuery, GetEventTemplateQueryVariables> {
     override document = GetEventTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2436,7 +2436,7 @@ export const UpdateFinancesDocument = gql`
   })
   export class UpdateFinancesGQL extends Apollo.Mutation<UpdateFinancesMutation, UpdateFinancesMutationVariables> {
     override document = UpdateFinancesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2455,7 +2455,7 @@ export const GetOrganizerOptionsDocument = gql`
   })
   export class GetOrganizerOptionsGQL extends Apollo.Query<GetOrganizerOptionsQuery, GetOrganizerOptionsQueryVariables> {
     override document = GetOrganizerOptionsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2486,7 +2486,7 @@ export const GetCostItemsForEventDocument = gql`
   })
   export class GetCostItemsForEventGQL extends Apollo.Query<GetCostItemsForEventQuery, GetCostItemsForEventQueryVariables> {
     override document = GetCostItemsForEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2512,7 +2512,7 @@ export const UpdateCostItemsFromTemplateDocument = gql`
   })
   export class UpdateCostItemsFromTemplateGQL extends Apollo.Mutation<UpdateCostItemsFromTemplateMutation, UpdateCostItemsFromTemplateMutationVariables> {
     override document = UpdateCostItemsFromTemplateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2566,7 +2566,7 @@ export const RegisterForEventDocument = gql`
   })
   export class RegisterForEventGQL extends Apollo.Mutation<RegisterForEventMutation, RegisterForEventMutationVariables> {
     override document = RegisterForEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2606,7 +2606,7 @@ export const CancelPaymentDocument = gql`
   })
   export class CancelPaymentGQL extends Apollo.Mutation<CancelPaymentMutation, CancelPaymentMutationVariables> {
     override document = CancelPaymentDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2629,7 +2629,7 @@ export const LoadRegistrationForMoveDocument = gql`
   })
   export class LoadRegistrationForMoveGQL extends Apollo.Query<LoadRegistrationForMoveQuery, LoadRegistrationForMoveQueryVariables> {
     override document = LoadRegistrationForMoveDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2653,7 +2653,7 @@ export const VerifyCertificateDocument = gql`
   })
   export class VerifyCertificateGQL extends Apollo.Mutation<VerifyCertificateMutation, VerifyCertificateMutationVariables> {
     override document = VerifyCertificateDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2676,7 +2676,7 @@ export const CreateEventRegistrationCodeDocument = gql`
   })
   export class CreateEventRegistrationCodeGQL extends Apollo.Mutation<CreateEventRegistrationCodeMutation, CreateEventRegistrationCodeMutationVariables> {
     override document = CreateEventRegistrationCodeDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2774,7 +2774,7 @@ export const LoadEventForRunningDocument = gql`
   })
   export class LoadEventForRunningGQL extends Apollo.Query<LoadEventForRunningQuery, LoadEventForRunningQueryVariables> {
     override document = LoadEventForRunningDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2811,7 +2811,7 @@ export const GetCostItemDocument = gql`
   })
   export class GetCostItemGQL extends Apollo.Query<GetCostItemQuery, GetCostItemQueryVariables> {
     override document = GetCostItemDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2827,7 +2827,7 @@ export const GetBlobTokenDocument = gql`
   })
   export class GetBlobTokenGQL extends Apollo.Query<GetBlobTokenQuery, GetBlobTokenQueryVariables> {
     override document = GetBlobTokenDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2853,7 +2853,7 @@ export const AddReceiptDocument = gql`
   })
   export class AddReceiptGQL extends Apollo.Mutation<AddReceiptMutation, AddReceiptMutationVariables> {
     override document = AddReceiptDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2877,7 +2877,7 @@ export const DeleteReceiptDocument = gql`
   })
   export class DeleteReceiptGQL extends Apollo.Mutation<DeleteReceiptMutation, DeleteReceiptMutationVariables> {
     override document = DeleteReceiptDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2920,7 +2920,7 @@ export const GetRegistrationDocument = gql`
   })
   export class GetRegistrationGQL extends Apollo.Query<GetRegistrationQuery, GetRegistrationQueryVariables> {
     override document = GetRegistrationDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2940,7 +2940,7 @@ export const CheckInUserDocument = gql`
   })
   export class CheckInUserGQL extends Apollo.Mutation<CheckInUserMutation, CheckInUserMutationVariables> {
     override document = CheckInUserDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2962,7 +2962,7 @@ export const GetUserPaymentStatusDocument = gql`
   })
   export class GetUserPaymentStatusGQL extends Apollo.Query<GetUserPaymentStatusQuery, GetUserPaymentStatusQueryVariables> {
     override document = GetUserPaymentStatusDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -2998,7 +2998,7 @@ export const DeregisterFromEventDocument = gql`
   })
   export class DeregisterFromEventGQL extends Apollo.Mutation<DeregisterFromEventMutation, DeregisterFromEventMutationVariables> {
     override document = DeregisterFromEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3017,7 +3017,7 @@ export const LoadUsersByStatusDocument = gql`
   })
   export class LoadUsersByStatusGQL extends Apollo.Query<LoadUsersByStatusQuery, LoadUsersByStatusQueryVariables> {
     override document = LoadUsersByStatusDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3052,7 +3052,7 @@ export const EventListDocument = gql`
   })
   export class EventListGQL extends Apollo.Query<EventListQuery, EventListQueryVariables> {
     override document = EventListDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3200,7 +3200,7 @@ export const LoadEventDocument = gql`
   })
   export class LoadEventGQL extends Apollo.Query<LoadEventQuery, LoadEventQueryVariables> {
     override document = LoadEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3220,7 +3220,7 @@ export const LoadUserForEventDocument = gql`
   })
   export class LoadUserForEventGQL extends Apollo.Query<LoadUserForEventQuery, LoadUserForEventQueryVariables> {
     override document = LoadUserForEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3319,7 +3319,7 @@ export const LoadEventForEditDocument = gql`
   })
   export class LoadEventForEditGQL extends Apollo.Query<LoadEventForEditQuery, LoadEventForEditQueryVariables> {
     override document = LoadEventForEditDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3341,7 +3341,7 @@ export const UpdateEventTemplateConnectionDocument = gql`
   })
   export class UpdateEventTemplateConnectionGQL extends Apollo.Mutation<UpdateEventTemplateConnectionMutation, UpdateEventTemplateConnectionMutationVariables> {
     override document = UpdateEventTemplateConnectionDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3359,7 +3359,7 @@ export const DeleteEventDocument = gql`
   })
   export class DeleteEventGQL extends Apollo.Mutation<DeleteEventMutation, DeleteEventMutationVariables> {
     override document = DeleteEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3382,7 +3382,7 @@ export const AddOrganizerToEventDocument = gql`
   })
   export class AddOrganizerToEventGQL extends Apollo.Mutation<AddOrganizerToEventMutation, AddOrganizerToEventMutationVariables> {
     override document = AddOrganizerToEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3403,7 +3403,7 @@ export const UpdateGeneralEventDocument = gql`
   })
   export class UpdateGeneralEventGQL extends Apollo.Mutation<UpdateGeneralEventMutation, UpdateGeneralEventMutationVariables> {
     override document = UpdateGeneralEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3437,7 +3437,7 @@ export const UpdateCoreEventDocument = gql`
   })
   export class UpdateCoreEventGQL extends Apollo.Mutation<UpdateCoreEventMutation, UpdateCoreEventMutationVariables> {
     override document = UpdateCoreEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3456,7 +3456,7 @@ export const UpdatePublicationDocument = gql`
   })
   export class UpdatePublicationGQL extends Apollo.Mutation<UpdatePublicationMutation, UpdatePublicationMutationVariables> {
     override document = UpdatePublicationDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3478,7 +3478,7 @@ export const UpdateEventLocationDocument = gql`
   })
   export class UpdateEventLocationGQL extends Apollo.Mutation<UpdateEventLocationMutation, UpdateEventLocationMutationVariables> {
     override document = UpdateEventLocationDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3512,7 +3512,7 @@ export const AddSubmissionToEventDocument = gql`
   })
   export class AddSubmissionToEventGQL extends Apollo.Mutation<AddSubmissionToEventMutation, AddSubmissionToEventMutationVariables> {
     override document = AddSubmissionToEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3536,7 +3536,7 @@ export const RemoveSubmissionFromEventDocument = gql`
   })
   export class RemoveSubmissionFromEventGQL extends Apollo.Mutation<RemoveSubmissionFromEventMutation, RemoveSubmissionFromEventMutationVariables> {
     override document = RemoveSubmissionFromEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3640,7 +3640,7 @@ export const LoadEventForManagementDocument = gql`
   })
   export class LoadEventForManagementGQL extends Apollo.Query<LoadEventForManagementQuery, LoadEventForManagementQueryVariables> {
     override document = LoadEventForManagementDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3669,7 +3669,7 @@ export const RestorePaymentDocument = gql`
   })
   export class RestorePaymentGQL extends Apollo.Mutation<RestorePaymentMutation, RestorePaymentMutationVariables> {
     override document = RestorePaymentDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3687,7 +3687,7 @@ export const DeleteRegistrationCodeDocument = gql`
   })
   export class DeleteRegistrationCodeGQL extends Apollo.Mutation<DeleteRegistrationCodeMutation, DeleteRegistrationCodeMutationVariables> {
     override document = DeleteRegistrationCodeDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3723,7 +3723,7 @@ export const GetPhotosOfEventDocument = gql`
   })
   export class GetPhotosOfEventGQL extends Apollo.Query<GetPhotosOfEventQuery, GetPhotosOfEventQueryVariables> {
     override document = GetPhotosOfEventDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3739,7 +3739,7 @@ export const GetPhotoShareKeyDocument = gql`
   })
   export class GetPhotoShareKeyGQL extends Apollo.Query<GetPhotoShareKeyQuery, GetPhotoShareKeyQueryVariables> {
     override document = GetPhotoShareKeyDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3757,7 +3757,7 @@ export const CreatePhotoShareDocument = gql`
   })
   export class CreatePhotoShareGQL extends Apollo.Mutation<CreatePhotoShareMutation, CreatePhotoShareMutationVariables> {
     override document = CreatePhotoShareDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3781,7 +3781,7 @@ export const LoadPublicRegistrationCodesDocument = gql`
   })
   export class LoadPublicRegistrationCodesGQL extends Apollo.Query<LoadPublicRegistrationCodesQuery, LoadPublicRegistrationCodesQueryVariables> {
     override document = LoadPublicRegistrationCodesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3805,7 +3805,7 @@ export const GetHomePageDataDocument = gql`
   })
   export class GetHomePageDataGQL extends Apollo.Query<GetHomePageDataQuery, GetHomePageDataQueryVariables> {
     override document = GetHomePageDataDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3824,7 +3824,7 @@ export const GetHomePageTenantInfoDocument = gql`
   })
   export class GetHomePageTenantInfoGQL extends Apollo.Query<GetHomePageTenantInfoQuery, GetHomePageTenantInfoQueryVariables> {
     override document = GetHomePageTenantInfoDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3848,7 +3848,7 @@ export const LoadPagesDocument = gql`
   })
   export class LoadPagesGQL extends Apollo.Query<LoadPagesQuery, LoadPagesQueryVariables> {
     override document = LoadPagesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3866,7 +3866,7 @@ export const RegisterUserDocument = gql`
   })
   export class RegisterUserGQL extends Apollo.Mutation<RegisterUserMutation, RegisterUserMutationVariables> {
     override document = RegisterUserDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3882,7 +3882,7 @@ export const GetProfileUploadKeyDocument = gql`
   })
   export class GetProfileUploadKeyGQL extends Apollo.Query<GetProfileUploadKeyQuery, GetProfileUploadKeyQueryVariables> {
     override document = GetProfileUploadKeyDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3901,7 +3901,7 @@ export const UpdateUserPictureDocument = gql`
   })
   export class UpdateUserPictureGQL extends Apollo.Mutation<UpdateUserPictureMutation, UpdateUserPictureMutationVariables> {
     override document = UpdateUserPictureDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3939,7 +3939,7 @@ export const GetPhotoJourneyDocument = gql`
   })
   export class GetPhotoJourneyGQL extends Apollo.Query<GetPhotoJourneyQuery, GetPhotoJourneyQueryVariables> {
     override document = GetPhotoJourneyDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -3985,7 +3985,7 @@ export const UserProfileDocument = gql`
   })
   export class UserProfileGQL extends Apollo.Query<UserProfileQuery, UserProfileQueryVariables> {
     override document = UserProfileDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4035,7 +4035,7 @@ export const UserProfileEventsDocument = gql`
   })
   export class UserProfileEventsGQL extends Apollo.Query<UserProfileEventsQuery, UserProfileEventsQueryVariables> {
     override document = UserProfileEventsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4077,7 +4077,7 @@ export const UserProfilePublicDocument = gql`
   })
   export class UserProfilePublicGQL extends Apollo.Query<UserProfilePublicQuery, UserProfilePublicQueryVariables> {
     override document = UserProfilePublicDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4120,7 +4120,7 @@ export const GetRegistrationCodeInfoDocument = gql`
   })
   export class GetRegistrationCodeInfoGQL extends Apollo.Query<GetRegistrationCodeInfoQuery, GetRegistrationCodeInfoQueryVariables> {
     override document = GetRegistrationCodeInfoDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4144,7 +4144,7 @@ export const SubmitEventFeedbackDocument = gql`
   })
   export class SubmitEventFeedbackGQL extends Apollo.Mutation<SubmitEventFeedbackMutation, SubmitEventFeedbackMutationVariables> {
     override document = SubmitEventFeedbackDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4187,7 +4187,7 @@ export const UseRegistrationCodeDocument = gql`
   })
   export class UseRegistrationCodeGQL extends Apollo.Mutation<UseRegistrationCodeMutation, UseRegistrationCodeMutationVariables> {
     override document = UseRegistrationCodeDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4214,7 +4214,7 @@ export const UpdateProfileDocument = gql`
   })
   export class UpdateProfileGQL extends Apollo.Mutation<UpdateProfileMutation, UpdateProfileMutationVariables> {
     override document = UpdateProfileDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4235,7 +4235,7 @@ export const UpdateUserInformationDocument = gql`
   })
   export class UpdateUserInformationGQL extends Apollo.Mutation<UpdateUserInformationMutation, UpdateUserInformationMutationVariables> {
     override document = UpdateUserInformationDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4261,7 +4261,7 @@ export const UserRolesDocument = gql`
   })
   export class UserRolesGQL extends Apollo.Query<UserRolesQuery, UserRolesQueryVariables> {
     override document = UserRolesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4279,7 +4279,7 @@ export const CreateSubmissionItemDocument = gql`
   })
   export class CreateSubmissionItemGQL extends Apollo.Mutation<CreateSubmissionItemMutation, CreateSubmissionItemMutationVariables> {
     override document = CreateSubmissionItemDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4297,7 +4297,7 @@ export const DeleteSubmissionItemDocument = gql`
   })
   export class DeleteSubmissionItemGQL extends Apollo.Mutation<DeleteSubmissionItemMutation, DeleteSubmissionItemMutationVariables> {
     override document = DeleteSubmissionItemDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4317,7 +4317,7 @@ export const SearchUserForTransactionDocument = gql`
   })
   export class SearchUserForTransactionGQL extends Apollo.Query<SearchUserForTransactionQuery, SearchUserForTransactionQueryVariables> {
     override document = SearchUserForTransactionDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4342,7 +4342,7 @@ export const TenantLoadEventsDocument = gql`
   })
   export class TenantLoadEventsGQL extends Apollo.Query<TenantLoadEventsQuery, TenantLoadEventsQueryVariables> {
     override document = TenantLoadEventsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4362,7 +4362,7 @@ export const LoadEventCategoriesForAdminDocument = gql`
   })
   export class LoadEventCategoriesForAdminGQL extends Apollo.Query<LoadEventCategoriesForAdminQuery, LoadEventCategoriesForAdminQueryVariables> {
     override document = LoadEventCategoriesForAdminDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4382,7 +4382,7 @@ export const CreateEventTemplateCategoryDocument = gql`
   })
   export class CreateEventTemplateCategoryGQL extends Apollo.Mutation<CreateEventTemplateCategoryMutation, CreateEventTemplateCategoryMutationVariables> {
     override document = CreateEventTemplateCategoryDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4402,7 +4402,7 @@ export const DeleteEventTemplateCategoryDocument = gql`
   })
   export class DeleteEventTemplateCategoryGQL extends Apollo.Mutation<DeleteEventTemplateCategoryMutation, DeleteEventTemplateCategoryMutationVariables> {
     override document = DeleteEventTemplateCategoryDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4451,7 +4451,7 @@ export const GetRegistrationsDocument = gql`
   })
   export class GetRegistrationsGQL extends Apollo.Query<GetRegistrationsQuery, GetRegistrationsQueryVariables> {
     override document = GetRegistrationsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4509,7 +4509,7 @@ export const GetRegistrationForAdminDocument = gql`
   })
   export class GetRegistrationForAdminGQL extends Apollo.Query<GetRegistrationForAdminQuery, GetRegistrationForAdminQueryVariables> {
     override document = GetRegistrationForAdminDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4525,7 +4525,7 @@ export const GetRegistrationCountDocument = gql`
   })
   export class GetRegistrationCountGQL extends Apollo.Query<GetRegistrationCountQuery, GetRegistrationCountQueryVariables> {
     override document = GetRegistrationCountDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4553,7 +4553,7 @@ export const GetCancelledRegistrationsDocument = gql`
   })
   export class GetCancelledRegistrationsGQL extends Apollo.Query<GetCancelledRegistrationsQuery, GetCancelledRegistrationsQueryVariables> {
     override document = GetCancelledRegistrationsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4612,7 +4612,7 @@ export const GetEventRegistrationCodesDocument = gql`
   })
   export class GetEventRegistrationCodesGQL extends Apollo.Query<GetEventRegistrationCodesQuery, GetEventRegistrationCodesQueryVariables> {
     override document = GetEventRegistrationCodesDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4745,7 +4745,7 @@ export const GetEventRegistrationCodeDocument = gql`
   })
   export class GetEventRegistrationCodeGQL extends Apollo.Query<GetEventRegistrationCodeQuery, GetEventRegistrationCodeQueryVariables> {
     override document = GetEventRegistrationCodeDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4761,7 +4761,7 @@ export const GetEventRegistrationCodeCountDocument = gql`
   })
   export class GetEventRegistrationCodeCountGQL extends Apollo.Query<GetEventRegistrationCodeCountQuery, GetEventRegistrationCodeCountQueryVariables> {
     override document = GetEventRegistrationCodeCountDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4812,7 +4812,7 @@ export const LoadTransactionsDocument = gql`
   })
   export class LoadTransactionsGQL extends Apollo.Query<LoadTransactionsQuery, LoadTransactionsQueryVariables> {
     override document = LoadTransactionsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4830,7 +4830,7 @@ export const CreateOrganizerDocument = gql`
   })
   export class CreateOrganizerGQL extends Apollo.Mutation<CreateOrganizerMutation, CreateOrganizerMutationVariables> {
     override document = CreateOrganizerDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4859,7 +4859,7 @@ export const LoadEventsForInsuranceDocument = gql`
   })
   export class LoadEventsForInsuranceGQL extends Apollo.Query<LoadEventsForInsuranceQuery, LoadEventsForInsuranceQueryVariables> {
     override document = LoadEventsForInsuranceDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4889,7 +4889,7 @@ export const LoadEventsWithBookingDocument = gql`
   })
   export class LoadEventsWithBookingGQL extends Apollo.Query<LoadEventsWithBookingQuery, LoadEventsWithBookingQueryVariables> {
     override document = LoadEventsWithBookingDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4934,7 +4934,7 @@ export const LoadEventsWithRatingDocument = gql`
   })
   export class LoadEventsWithRatingGQL extends Apollo.Query<LoadEventsWithRatingQuery, LoadEventsWithRatingQueryVariables> {
     override document = LoadEventsWithRatingDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -4966,7 +4966,7 @@ export const LoadAllPhotosDocument = gql`
   })
   export class LoadAllPhotosGQL extends Apollo.Query<LoadAllPhotosQuery, LoadAllPhotosQueryVariables> {
     override document = LoadAllPhotosDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5037,7 +5037,7 @@ export const LoadUserDocument = gql`
   })
   export class LoadUserGQL extends Apollo.Query<LoadUserQuery, LoadUserQueryVariables> {
     override document = LoadUserDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5082,7 +5082,7 @@ export const GetTenantForEditDocument = gql`
   })
   export class GetTenantForEditGQL extends Apollo.Query<GetTenantForEditQuery, GetTenantForEditQueryVariables> {
     override document = GetTenantForEditDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5102,7 +5102,7 @@ export const GetOrganizersDocument = gql`
   })
   export class GetOrganizersGQL extends Apollo.Query<GetOrganizersQuery, GetOrganizersQueryVariables> {
     override document = GetOrganizersDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5144,7 +5144,7 @@ export const GetUsersDocument = gql`
   })
   export class GetUsersGQL extends Apollo.Query<GetUsersQuery, GetUsersQueryVariables> {
     override document = GetUsersDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5177,7 +5177,7 @@ export const GetStatisticsDocument = gql`
   })
   export class GetStatisticsGQL extends Apollo.Query<GetStatisticsQuery, GetStatisticsQueryVariables> {
     override document = GetStatisticsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5204,7 +5204,7 @@ export const GetLogsDocument = gql`
   })
   export class GetLogsGQL extends Apollo.Query<GetLogsQuery, GetLogsQueryVariables> {
     override document = GetLogsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5244,7 +5244,7 @@ export const UpdateTenantDocument = gql`
   })
   export class UpdateTenantGQL extends Apollo.Mutation<UpdateTenantMutation, UpdateTenantMutationVariables> {
     override document = UpdateTenantDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5264,7 +5264,7 @@ export const UpdateEsNcardDocument = gql`
   })
   export class UpdateEsNcardGQL extends Apollo.Mutation<UpdateEsNcardMutation, UpdateEsNcardMutationVariables> {
     override document = UpdateEsNcardDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5292,7 +5292,7 @@ export const UpdateUserDocument = gql`
   })
   export class UpdateUserGQL extends Apollo.Mutation<UpdateUserMutation, UpdateUserMutationVariables> {
     override document = UpdateUserDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5319,7 +5319,7 @@ export const GetTutorHubInfoDocument = gql`
   })
   export class GetTutorHubInfoGQL extends Apollo.Query<GetTutorHubInfoQuery, GetTutorHubInfoQueryVariables> {
     override document = GetTutorHubInfoDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }
@@ -5338,7 +5338,7 @@ export const GetTutorHubEventsDocument = gql`
   })
   export class GetTutorHubEventsGQL extends Apollo.Query<GetTutorHubEventsQuery, GetTutorHubEventsQueryVariables> {
     override document = GetTutorHubEventsDocument;
-    
+
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
     }

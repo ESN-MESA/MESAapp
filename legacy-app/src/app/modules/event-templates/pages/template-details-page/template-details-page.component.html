@@ -210,16 +210,16 @@
         </a>
       </mat-nav-list>
     </mat-expansion-panel>
-
-    <mat-expansion-panel [expanded]="true">
-      <mat-expansion-panel-header>
-        <mat-panel-title> Finances </mat-panel-title>
-      </mat-expansion-panel-header>
-      <app-finance-planner
-        (recommendedPriceChange)="updateRecommendedPrice($event)"
-        [template]="template"
-      ></app-finance-planner>
-    </mat-expansion-panel>
+<!--  Finances not avail rn-->
+<!--    <mat-expansion-panel [expanded]="true">-->
+<!--      <mat-expansion-panel-header>-->
+<!--        <mat-panel-title> Finances </mat-panel-title>-->
+<!--      </mat-expansion-panel-header>-->
+<!--      <app-finance-planner-->
+<!--        (recommendedPriceChange)="updateRecommendedPrice($event)"-->
+<!--        [template]="template"-->
+<!--      ></app-finance-planner>-->
+<!--    </mat-expansion-panel>-->
 
     <mat-expansion-panel [expanded]="true" *appIfRole="[Role.Admin]">
       <mat-expansion-panel-header>

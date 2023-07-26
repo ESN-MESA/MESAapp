@@ -191,16 +191,16 @@
                 Enable photo sharing for this event
               </mat-checkbox>
             </div>
-            <mat-form-field class="w-full">
-              <mat-label>Insurance Description</mat-label>
-              <textarea
-                matInput
-                formControlName="insuranceDescription"
-                rows="3"
-              ></textarea>
-            </mat-form-field>
+<!--            <mat-form-field class="w-full">-->
+<!--              <mat-label>Insurance Description</mat-label>-->
+<!--              <textarea-->
+<!--                matInput-->
+<!--                formControlName="insuranceDescription"-->
+<!--                rows="3"-->
+<!--              ></textarea>-->
+<!--            </mat-form-field>-->
             <mat-checkbox formControlName="shouldBeReportedToInsurance">
-              Insurance required
+              Keep unchecked
             </mat-checkbox>
             <div fxLayout.gt-sm="row" fxLayout="column" fxLayoutGap="1rem">
               <mat-form-field class="w-full">
@@ -243,9 +243,9 @@
                   <mat-option [value]="RegistrationMode.External">{{
                     RegistrationMode.External | titlecase
                   }}</mat-option>
-                  <mat-option [value]="RegistrationMode.Stripe">{{
-                    RegistrationMode.Stripe | titlecase
-                  }}</mat-option>
+<!--                  <mat-option [value]="RegistrationMode.Stripe">{{-->
+<!--                    RegistrationMode.Stripe | titlecase-->
+<!--                  }}</mat-option>-->
                   <mat-option [value]="RegistrationMode.Online">{{
                     RegistrationMode.Online | titlecase
                   }}</mat-option>

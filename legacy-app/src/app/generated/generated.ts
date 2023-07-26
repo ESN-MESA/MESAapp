@@ -334,10 +334,10 @@ export enum LogSeverity {
 
 export enum MembershipStatus {
   Alumni = 'ALUMNI',
-  Full = 'ACTIVE',
+  Full = 'FULL',
   None = 'NONE',
   Sponsor = 'SPONSOR',
-  Trial = 'NEWBIE'
+  Trial = 'TRIAL'
 }
 
 export type Mutation = {

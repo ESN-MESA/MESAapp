@@ -1,3 +1,7 @@
+# Development suspended indefinitely, contact Org for more info
+
+
+
 # MESA app (forked from TUMi app)
 
 ### OR: the ESN section app
